@@ -1,7 +1,7 @@
 ---
 title: how-computers-work-02
 date: 2016-05-23 22:15:49
-tags:
+tags:computer
   - default
 
 ---
