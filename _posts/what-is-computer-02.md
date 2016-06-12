@@ -1,8 +1,8 @@
 ---
 title: what-is-computer-02
 date: 
-tags:computer
-  - default
+tags:
+- computer
 
 ---
 

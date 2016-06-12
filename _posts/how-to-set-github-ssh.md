@@ -1,8 +1,8 @@
 ---
 title: how-to-set-github-ssh
 date: 2016-05-23 22:15:38
-tags:github
-  - default
+tags:
+- github
 ---
 
 ### step 0: 

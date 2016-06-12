@@ -1,9 +1,8 @@
 ---
 title: how-to-register-markdown2
 date: 2016-05-23 23:01:49
-tags:github
-  - default
-
+tags:
+- github
 ---
 
 邮箱：
