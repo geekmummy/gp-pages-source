@@ -1,8 +1,8 @@
 ---
 title: write-to-everyone-01
 date: 
-tags:computer
--
+tags:
+- computer
 ---   
 
 `#include<stdio.h>`
