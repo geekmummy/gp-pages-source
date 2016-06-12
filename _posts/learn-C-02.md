@@ -1,8 +1,8 @@
 ---
-title: C语言-01
+title: learn-C-02
 date: 
-tags: 编程语言
-  - default
+tags: 
+  - C
 
 ---
     void main() 

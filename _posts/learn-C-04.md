@@ -1,9 +1,10 @@
 ---
-title: write-to-everyone-01
-date: 
+title: learn-C-04
+date: 2016-06-12 17:59:27
 tags:
-	- computer
+  - C
 ---
+
 
 `#include<stdio.h>`
     int main(void){
@@ -56,7 +57,4 @@ tags:
 ![](http://ww1.sinaimg.cn/large/691a3013gw1f4s55ytoytj20c505u0tn.jpg)
 
 ![](http://ww2.sinaimg.cn/large/691a3013gw1f4s56fyqwvj206v01z3yo.jpg)
-
-
-
 

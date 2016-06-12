@@ -1,8 +1,8 @@
 ---
-title: C语言-02
+title: learn-C-03
 date: 
-tags: 编程语言
-  - default
+tags: 
+  - C
 
 ---
 
