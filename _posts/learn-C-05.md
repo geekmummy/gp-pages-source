@@ -29,9 +29,8 @@ tags:
 
 - 格式：
 
-    printf(controlString [, data]);
-
-    printf("I am %d", 16); /* controlString="I am %d"部分; data =16,可选部分 */
+    `printf(controlString [, data]);`
+    `printf("I am %d", 16); /* controlString="I am %d"部分; data =16,可选部分 */`
 
 ![](http://ww4.sinaimg.cn/large/691a3013gw1f4su3nnfm2j20gb04lglr.jpg)
 
@@ -47,12 +46,12 @@ tags:
 
 - 格式：
 
-    scanf(controlString [, data]);
+`scanf(controlString [, data]);`
 
 - 每个scanf()前面都要有printf()。
 
-    printf("What is the amount?");
-    scanf(" %d", **&**age); /* 变量age将存放 用户在按下Enter前输入的任何值。*/
+    `printf("What is the amount?");`
+    `scanf(" %d", **&**age); /* 变量age将存放 用户在按下Enter前输入的任何值。*/`
 
 - **&**  如果要输入整数、浮点数、字符、双精度数或其他任何一个变量组合，就要在scanf()中的变量名前加**&**。如果输入字符串到一个字符数组中，就不用在数组名前加&。
 

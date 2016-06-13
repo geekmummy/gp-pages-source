@@ -6,8 +6,7 @@ tags:
 
 ---
 
-
-`#include<stdio.h>`
+    #include<stdio.h>
     int main(void){
       printf("This C stuff is easy!\n");
       return(0);
@@ -67,7 +66,7 @@ tags:
 - 边写，边注释；
 - 符号： 多行注释-- /*.....*/   单行注释--//
 
-    return((s1 < s2)? s1 : s2); /* gets the smaller of 2 values */
+`return((s1 < s2)? s1 : s2); /* gets the smaller of 2 values */`
 
 ## 变量 ##
 
@@ -76,18 +75,18 @@ tags:
 - 变量名可以包含1-32个字符；
 - 必须以字母开头，后面可以是字母、数字或下划线的组合。如以下合法的变量名：
 
-    myData   pay94   age_limit   QtlyIncome   amount
+    `myData   pay94   age_limit   QtlyIncome   amount`
 
 - 不合法的变量名：
 
-    94pay   my Age    rate*pay
+    `94pay   my Age    rate*pay`
 
 - 赋值运算符（=），给变量赋值：
 
-    age = 31;
-    newSales = sales + 2167.2;
+    `age = 31;`
+    `newSales = sales + 2167.2;`
 
 - 定义变量的同时，赋初值：
 
-    int numSold = 25, numBought;
+    `int numSold = 25, numBought;`
 
