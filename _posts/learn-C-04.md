@@ -58,3 +58,16 @@ tags:
 
 ![](http://ww2.sinaimg.cn/large/691a3013gw1f4s56fyqwvj206v01z3yo.jpg)
 
+
+## 代码注释 ##
+
+- 整个C程序从头至尾都应加上注释（comment）。
+- 边写，边注释；
+- 符号： 多行注释-- /*.....*/   单行注释--//
+
+    return((s1 < s2)? s1 : s2); /* gets the smaller of 2 values */
+
+![](http://ww4.sinaimg.cn/large/691a3013gw1f4su0zju53j20fu0543ym.jpg)
+
+![](http://ww4.sinaimg.cn/large/691a3013gw1f4su3nnfm2j20gb04lglr.jpg)
+
