@@ -3,6 +3,7 @@ title: learn-C-04
 date: 2016-06-12 17:59:27
 tags:
   - C
+
 ---
 
 
@@ -13,6 +14,7 @@ tags:
     }
 
 <!-- more -->
+
 ## main函数 ##
 
 - C语言中，所有命令和预定义函数应该使用小写字母；
@@ -30,11 +32,11 @@ tags:
 
 ![](http://ww2.sinaimg.cn/large/691a3013gw1f4r8zejlhuj207q012q2p.jpg)
 
-- C语言的所有字符数据都括在**''**中，单个字符放在''中有效。如：
+- C语言的所有字符数据都括在**' '**中，单个字符放在' '中有效。如：
 
 ![](http://ww3.sinaimg.cn/large/691a3013gw1f4r95pzvolj20ap039mx4.jpg)
 
-- 多个字符的组合，即字符串，放在**""**间，如："C is fun to learn."
+- 多个字符的组合，即字符串，放在**" "**间，如："C is fun to learn."
 
 ### 数字 ###
 
@@ -67,7 +69,25 @@ tags:
 
     return((s1 < s2)? s1 : s2); /* gets the smaller of 2 values */
 
-![](http://ww4.sinaimg.cn/large/691a3013gw1f4su0zju53j20fu0543ym.jpg)
+## 变量 ##
 
-![](http://ww4.sinaimg.cn/large/691a3013gw1f4su3nnfm2j20gb04lglr.jpg)
+![](http://ww3.sinaimg.cn/large/691a3013gw1f4tbtei1wjj20g006674y.jpg)
+
+- 变量名可以包含1-32个字符；
+- 必须以字母开头，后面可以是字母、数字或下划线的组合。如以下合法的变量名：
+
+    myData   pay94   age_limit   QtlyIncome   amount
+
+- 不合法的变量名：
+
+    94pay   my Age    rate*pay
+
+- 赋值运算符（=），给变量赋值：
+
+    age = 31;
+    newSales = sales + 2167.2;
+
+- 定义变量的同时，赋初值：
+
+    int numSold = 25, numBought;
 
