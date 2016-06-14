@@ -6,6 +6,31 @@ tags:
 
 ---
 
+`int main(){
+  int age, intSize;
+  float gift;
+  printf("How old are you?\n");
+  scanf(" %d", age);
+  if (age<18)
+    gift=5.00;
+  else
+    gift=10.00;
+
+<!-- more -->
+
+  gift=(age<18) ? 5.00:10.00;
+  printf("Your gift is $%.2f\n",gift);
+  age ++;
+  printf("In a year, you'll be %d years old.\n", age);
+  intSize=sizeof(int);
+  printf("Integers take %d memory location.\n",intSize);
+
+  return(0);
+}
+`
+
+输出的时候，“ In a year, you'll be 2147332097 years old. ” 这个数值不对，怎么解决呢？
+
 # 操作空间 #
 
 ## 复合赋值 ##
@@ -13,8 +38,6 @@ tags:
 计数器变量：当特定事件发生时，它的值增加1。
 
 ![](http://ww1.sinaimg.cn/large/691a3013gw1f4tor8rcuoj209q07ujst.jpg)
-
-<!-- more -->
 
 输出为：
 
