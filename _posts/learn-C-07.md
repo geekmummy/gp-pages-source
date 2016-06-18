@@ -6,8 +6,15 @@ tags:
 
 ---
 
-
-
+`#include<math.h>
+po2=pow(2.0,2.0);
+printf("2 raised to the 2nd power is %.0f\n", po2);
+s2=sqrt(49);
+printf("The square root of 49 is %.0f\n", s2);
+si628=sin(6.28);
+print("The sine of 6.28 is %f\n", si628);
+r01=rand();
+printf("A random number from 1 to 32767 is %f\n", r01);`
 
 <!-- more -->
 
