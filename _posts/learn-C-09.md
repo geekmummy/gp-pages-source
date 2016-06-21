@@ -6,8 +6,9 @@ tags:
 
 ---
 
-
-
+    char input[81];    //holds a string as long as 80 characters 
+    char *iptr=input;  //also could have done this: char *iptr=&input[0];
+    gets(iptr);       //makes sure that iptr points to the string typed by the user.
 
 <!-- more -->
 
@@ -70,11 +71,37 @@ tags:
 
 ## 字符和指针 ##
 
-两条语句在内存中设置了几乎相同的内容。
+- 两条语句在内存中设置了几乎相同的内容。
+- 唯一不同的是：第2条语句是指针变量。
 
 ![](http://ww1.sinaimg.cn/large/691a3013gw1f52rw5iv89j20d901gq2w.jpg)
 
-唯一不同的是：第2条语句是指针变量。
+
+## 指针数组 ##
+
+一个包含25个整型指针的数组；一个包含25个字符型指针的数组
+
+![](http://ww1.sinaimg.cn/large/691a3013gw1f52zf55pncj20ba01jdft.jpg)
+
+字符数组，在数组中存储字符串的列表。即指向不同的字符串。如下程序：
+
+    int main(){
+    	int i;
+    	char *names[5]={"Joe Swadley", "Richard Wikert", "Keith Miller", "Dean Davenport", "Stacy Wiquet"};
+    
+    	for(i=0;i<5;i++) {
+    		printf("Name %d: %s\n", i, names[i]);
+    	}
+    return 0;
+    }
+
+![](http://ww4.sinaimg.cn/large/691a3013gw1f52zmiulfaj206h03jt8q.jpg)
+
+每一个元素只不过是一个字符型指针，包含了不同人名的地址。names不存放字符串，它只存放指向字符串的指针。
+
+![](http://ww1.sinaimg.cn/large/691a3013gw1f52zn96he1j208q04kdfy.jpg)
+
+把字符型指针存储在nemes中就可以使程序表现得像names是一个字符串数组一样。
 
 
 
